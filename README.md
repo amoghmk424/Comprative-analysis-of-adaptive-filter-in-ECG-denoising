@@ -75,7 +75,7 @@
 ---
 
 ##  Block Diagram
-![Block Diagram](block.png)
+![Block Diagram](pictures/blockdiagram.png)
 
 ---
 
