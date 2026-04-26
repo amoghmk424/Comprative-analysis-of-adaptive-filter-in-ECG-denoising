@@ -75,7 +75,7 @@
 ---
 
 ##  Block Diagram
-![Block Diagram](media/Screenshot 2026-04-26 201655.png)
+![Block Diagram](block.png)
 
 ---
 
