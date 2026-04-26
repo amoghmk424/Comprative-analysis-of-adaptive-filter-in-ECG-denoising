@@ -124,6 +124,10 @@
 ##  Results & Analysis
 ![](pictures/r1.png
 )
+![](pictures/r2.png
+)
+![](pictures/r3.png
+)
 
 - Best Performing Algorithms:
   - IPNLMS
