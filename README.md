@@ -122,9 +122,9 @@
 ---
 
 ##  Results & Analysis
-![Block Diagram](media/Screenshot 2026-04-26 201859.png)
-![Block Diagram](media/Screenshot 2026-04-26 201916.png)
-![Block Diagram](media/Screenshot 2026-04-26 201936.png)
+![Flow Diagram](media/9a4bc401-d006-4be5-956c-3c5341730113.png
+)
+
 - Best Performing Algorithms:
   - IPNLMS
   - Kalman Filter
