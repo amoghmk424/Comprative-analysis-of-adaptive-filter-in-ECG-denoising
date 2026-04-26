@@ -1,8 +1,8 @@
-# 📌 Comparative Analysis and Implementation of Adaptive Filter Algorithms for ECG Signal Denoising
+#  Comparative Analysis and Implementation of Adaptive Filter Algorithms for ECG Signal Denoising
 
 ---
 
-## 🔹 Introduction
+##  Introduction
 - Electrocardiogram (ECG) signals are widely used for monitoring heart activity.
 - These signals are highly sensitive to noise such as:
   - Power Line Interference
@@ -14,10 +14,10 @@
 
 ---
 
-## 🔹 Project Overview
+##  Project Overview
 - This project performs a **comparative analysis of adaptive filtering algorithms** for ECG denoising.
 
-### 🎯 Objectives:
+###  Objectives:
 - Evaluate multiple adaptive algorithms:
   - LMS
   - NLMS
@@ -37,7 +37,7 @@
 
 ---
 
-## 🔹 Problem Statement
+##  Problem Statement
 - ECG signals are corrupted by:
   - Power line interference
   - Baseline drift
@@ -49,7 +49,7 @@
 
 ---
 
-## 🔹 History / Background
+##  History / Background
 - Adaptive filtering began with Widrow's LMS algorithm (1975).
 - Evolution of algorithms:
   - LMS → Simple but slow
@@ -62,7 +62,7 @@
 
 ---
 
-## 🔹 Methodology
+##  Methodology
 - Data acquisition (ECG + accelerometer)
 - Signal segmentation:
   - Rest (Clean)
@@ -74,43 +74,43 @@
 
 ---
 
-## 🔹 Block Diagram
+##  Block Diagram
 
 
 ---
 
-## 🔹 Algorithms Used
+## Algorithms Used
 
-### ⭐ LMS (Least Mean Squares)
+###  LMS (Least Mean Squares)
 - Simple algorithm
 - Low computational cost
 - Slow convergence
 
-### ⭐ NLMS (Normalized LMS)
+###  NLMS (Normalized LMS)
 - Improved version of LMS
 - Faster convergence
 - Stable for varying signals
 
-### ⭐ RLS (Recursive Least Squares)
+###  RLS (Recursive Least Squares)
 - Very fast convergence
 - High computational complexity
 
-### ⭐ PNLMS / IPNLMS
+###  PNLMS / IPNLMS
 - Best for sparse systems
 - High accuracy in noise removal
 - Preserves ECG waveform
 
-### ⭐ Kalman Filter
+###  Kalman Filter
 - Optimal estimation technique
 - Handles dynamic noise effectively
 
-### ⭐ EEMD
+###  EEMD
 - Decomposes signal into components
 - High accuracy but slow processing
 
 ---
 
-## 🔹 Steps of the Project
+##  Steps of the Project
 - Select dataset (mHealth dataset)
 - Preprocess ECG signals
 - Segment signals based on activity
@@ -121,7 +121,7 @@
 
 ---
 
-## 🔹 Results & Analysis
+##  Results & Analysis
 - Best Performing Algorithms:
   - IPNLMS
   - Kalman Filter
@@ -130,7 +130,7 @@
 - Worst Performance:
   - LMS
 
-### 📊 Key Observations:
+###  Key Observations:
 - PNLMS/IPNLMS preserved ECG waveform effectively
 - Kalman filter showed strong robustness
 - LMS showed slow convergence
@@ -138,7 +138,7 @@
 
 ---
 
-## 🔹 Conclusion
+##  Conclusion
 - Adaptive filtering significantly improves ECG signal quality.
 - IPNLMS and Kalman filters provide best performance.
 - PNLMS/IPNLMS offer optimal balance between:
@@ -148,7 +148,7 @@
 
 ---
 
-## 🔹 Future Scope
+##  Future Scope
 - FPGA / Embedded implementation
 - Integration with IoT healthcare systems
 - Multi-sensor fusion (ECG + Gyroscope + Accelerometer)
@@ -157,7 +157,7 @@
 
 ---
 
-## 🔹 Dataset Details
+##  Dataset Details
 - Dataset: mHealth Dataset
 - Sampling Rate: 50 Hz
 - Signals:
@@ -170,7 +170,7 @@
 
 ---
 
-## 🔹 Result Summary Table
+##  Result Summary Table
 
 | Algorithm | Accuracy | Speed | Complexity |
 |----------|--------|------|-----------|
@@ -182,7 +182,7 @@
 
 ---
 
-## 🔹 References
+##  References
 - Widrow, B. – Adaptive Noise Cancelling (1975)
 - PhysioNet / mHealth Dataset
 - IEEE Research Papers on ECG Denoising
